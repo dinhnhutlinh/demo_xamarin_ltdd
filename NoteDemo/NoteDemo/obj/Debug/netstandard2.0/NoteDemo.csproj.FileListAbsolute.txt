@@ -1,0 +1,16 @@
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.csproj.AssemblyReference.cache
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\bin\Debug\netstandard2.0\NoteDemo.deps.json
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\bin\Debug\netstandard2.0\NoteDemo.dll
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\bin\Debug\netstandard2.0\NoteDemo.pdb
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.AssemblyInfoInputs.cache
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.AssemblyInfo.cs
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.csproj.CoreCompileInputs.cache
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.dll
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\refint\NoteDemo.dll
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\NoteDemo.pdb
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\ref\NoteDemo.dll
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\84378\source\repos\NoteDemo\NoteDemo\NoteDemo\obj\Debug\netstandard2.0\Views\NotePage.xaml.g.cs

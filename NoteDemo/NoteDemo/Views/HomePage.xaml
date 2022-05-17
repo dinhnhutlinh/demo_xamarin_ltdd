@@ -4,57 +4,53 @@
              x:Class="NoteDemo.Views.HomePage"             
              Title="Notes"
              BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" 
+                 Command="{Binding AddNoteCommand}"
+                 Order="Primary"
+                 Priority="0" />
+    </ContentPage.ToolbarItems>
+
     <AbsoluteLayout>
-    <Grid Margin="5">
-        <CollectionView ItemsSource="{Binding Notes}"
+        <Grid Margin="5">
+            <CollectionView ItemsSource="{Binding Notes}"
                         SelectionMode="Single"
                         SelectedItem="{Binding SelectedNote, Mode=OneWayToSource}"
                         x:Name="NoteCollectionView">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10">
-                        <Label Text="{Binding Title}" 
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Title}" 
                                TextColor="Black"
                                FontSize="20"/>
 
-                        <Label Text="{Binding CreateAt, StringFormat='{0:dddd dd/MM/yyyy}'}"
+                            <Label Text="{Binding CreateAt, StringFormat='{0:dddd dd/MM/yyyy}'}"
                                FontSize="Caption"
                                TextColor="Black"/>
-                        <BoxView HeightRequest="0.5"
+                            <BoxView HeightRequest="0.5"
                                  Margin="0,20,0,0"/>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-            <CollectionView.EmptyView>
-                <ContentView>
-                    <StackLayout HorizontalOptions="CenterAndExpand"
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.EmptyView>
+                    <ContentView>
+                        <StackLayout HorizontalOptions="CenterAndExpand"
                              VerticalOptions="CenterAndExpand">
-                        <Label Text="No Note Here"
+                            <Label Text="No Note Here"
                            Margin="10,25,10,10"
                            FontAttributes="Bold"
                            FontSize="18"
                            HorizontalOptions="Fill"
                            HorizontalTextAlignment="Center" />
-                        <Label Text="Create New For You"
+                            <Label Text="Create New For You"
                            FontAttributes="Italic"
                            FontSize="12"
                            HorizontalOptions="Fill"
                            HorizontalTextAlignment="Center" />
-                    </StackLayout>
-                </ContentView>
-            </CollectionView.EmptyView>
-        </CollectionView>
-    </Grid>
-        <Button FontSize="24"
-            Text="+"
-            CornerRadius="28"
-            WidthRequest="56"
-            HeightRequest="56"
-            Padding="0"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            AbsoluteLayout.LayoutFlags="PositionProportional"  
-            AbsoluteLayout.LayoutBounds=".95,.95,80,80" 
-            Visual="Material" />
+                        </StackLayout>
+                    </ContentView>
+                </CollectionView.EmptyView>
+            </CollectionView>
+        </Grid>
     </AbsoluteLayout>
 </ContentPage>
